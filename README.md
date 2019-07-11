@@ -8,3 +8,16 @@ Postgresql- 学习
 ## 运行环境
 - Ubuntu 18.04 LST
 
+## 环境配置
+```bash
+sudo su
+chmod +x prepare.sh
+./prepare.sh
+```
+
+## 练习数据库配置
+- 紧接环境配置
+```bash
+chomd +x databasePrepare.sh
+./databasePrepare.sh
+```
