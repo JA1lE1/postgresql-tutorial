@@ -6,7 +6,7 @@ Postgresql- 学习
 
 
 ## 运行环境
-- Ubuntu 18.04 LST
+- Ubuntu 18.04 LTS
 
 ## 环境配置
 ```bash
