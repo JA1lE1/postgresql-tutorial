@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y vim \
 RUN wget https://pg.sjk66.com/static/attach/download-sample-database/dvdrental.zip && \
         unzip dvdrental.zip
 
-RUN psql && \
+RUN psql -U postgres && \
     CREATE DATABASE dvdrental && \
     \q
 
